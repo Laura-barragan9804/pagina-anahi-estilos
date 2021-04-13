@@ -1,0 +1,408 @@
+*{
+    margin: 0px;
+ 
+}
+/* ENCABEZADO */
+header{
+    box-shadow: 0px 10px 10px gray;
+    width: 100%;
+    height: 200px;
+}
+.padre {
+    width: 100%;
+    margin: auto;
+}
+.logo {
+    width: 100%;
+}
+.logo img {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+.contenedor1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.iconos img {
+    width: 30px;
+    margin: 10px;
+}
+
+.inserch input {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e6e6e6;
+    text-align: left;
+    border-style: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 30px;
+    padding-left: 15px;
+
+}
+.navegacion{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+}
+.anclasnav {
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 15px;
+
+    transition: ease-in;
+}
+.anclasnav:hover {
+    color: #df2957;
+    border-bottom: #df2957 2px solid;
+}
+
+/* FIN ENCABEZADO */
+
+
+/* CARRUSEL */
+.carousel {
+    margin-top: 50px;
+}
+/* FIN CARRUSEL */
+
+
+/* LO ULTIMO */
+@font-face{
+    font-family:DarkLarch;
+    src: url(letras/DarkLarch.ttf);
+}
+h2 {
+    font-family:DarkLarch;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #808080;
+}
+h4 {
+    font-family:DarkLarch;
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #808080;
+}
+.padrecajas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.cajas {
+    background-color: #df2957 ;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 30px 5px 30px;
+
+    transition: all 1s ease-in;
+}
+.cajas:hover {
+    background-color: #912144 ;
+}
+.antescajas {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+/* FIN LO ULTIMO */
+
+
+/* ENVIO GRATIS */
+.anuncio {
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #912144;
+}
+.textoanuncio {
+    margin: 20px 0px 20px 0px;
+}
+/* FIN ENVIO GRATIS */
+
+/* LO ULTIMO */
+.ultimosproductos{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+.productos {
+    margin: 0px 10px 0px 10px;
+}
+.letraproductos {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.letraprecios {
+    color: #df2957;
+    font-weight: bold;
+}
+/* FIN LO ULTIMO */
+
+/* CATEGORIAS */
+.categoriaspadre {
+    background-color: #f2f2f2 ;
+    padding: 30px 15px 30px 15px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin:auto;
+}
+.categorias {
+    width: 200px;
+    height: 366px;
+    color: white;
+
+    background-image: url(img/1x/cat1.png);
+    background-size: cover;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+}
+.categorias2 {
+    width: 200px;
+    height: 366px;
+    color: white;
+
+    background-image: url(img/1x/cat2.png);
+    background-size: cover;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+}
+.categorias3 {
+    width: 200px;
+    height: 366px;
+    color: white;
+
+    background-image: url(img/1x/cat3.png);
+    background-size: cover;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+}
+.categorias4 {
+    width: 200px;
+    height: 366px;
+    color: white;
+
+    background-image: url(img/1x/cat4.png);
+    background-size: cover;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+}
+.categorias5 {
+    width: 200px;
+    height: 366px;
+    color: white;
+
+    background-image: url(img/1x/cat5.png);
+    background-size: cover;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+}
+
+.cajatexto {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 280px;
+}
+.cajatexto:hover {
+    background: rgba(145,33,68,0);
+background: -moz-linear-gradient(top, rgba(145,33,68,0) 0%, rgba(145,33,68,0.17) 17%, rgba(145,33,68,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(145,33,68,0)), color-stop(17%, rgba(145,33,68,0.17)), color-stop(100%, rgba(145,33,68,1)));
+background: -webkit-linear-gradient(top, rgba(145,33,68,0) 0%, rgba(145,33,68,0.17) 17%, rgba(145,33,68,1) 100%);
+background: -o-linear-gradient(top, rgba(145,33,68,0) 0%, rgba(145,33,68,0.17) 17%, rgba(145,33,68,1) 100%);
+background: -ms-linear-gradient(top, rgba(145,33,68,0) 0%, rgba(145,33,68,0.17) 17%, rgba(145,33,68,1) 100%);
+background: linear-gradient(to bottom, rgba(145,33,68,0) 0%, rgba(145,33,68,0.17) 17%, rgba(145,33,68,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#912144', endColorstr='#912144', GradientType=0 );
+}
+/* FIN CATEGORIAS */
+
+/* SOBRE NOSOTROS */
+.sobrenosotros {
+display: flex;
+justify-content: center;
+padding: 30px ;
+justify-content: center;
+flex-flow: row wrap;
+align-items: center;
+
+    background: rgba(223,41,87,1);
+background: -moz-linear-gradient(top, rgba(223,41,87,1) 0%, rgba(145,33,68,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(223,41,87,1)), color-stop(100%, rgba(145,33,68,1)));
+background: -webkit-linear-gradient(top, rgba(223,41,87,1) 0%, rgba(145,33,68,1) 100%);
+background: -o-linear-gradient(top, rgba(223,41,87,1) 0%, rgba(145,33,68,1) 100%);
+background: -ms-linear-gradient(top, rgba(223,41,87,1) 0%, rgba(145,33,68,1) 100%);
+background: linear-gradient(to bottom, rgba(223,41,87,1) 0%, rgba(145,33,68,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#df2957', endColorstr='#912144', GradientType=0 );
+
+}
+
+h3 {
+    font-family:DarkLarch;
+    font-size: 30px;
+}
+.nosotros {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    max-width: 500px;
+}
+.nosotros p {
+    text-align: justify;
+}
+
+.botonvermas {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #912144;
+    border-style: none;
+    padding: 7px 30px 7px 30px;
+    border-radius: 80px;
+    float: right;
+}
+
+/* FIN SOBRE NOSOTROS */
+
+.mapacontacto  {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    flex-flow: wrap;
+}
+.ubicacion {
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.formulario {
+    padding: 0px 20px 30px 20px;
+}
+.contacto {
+    border-style: solid;
+    border-color: #cccccc;
+    border-radius: 30px;
+    width: 350px;
+}
+
+.contacto h4 {
+    text-align: center;
+}
+.bi {
+    float: left;
+    color: #df2957;
+    margin-right: 10px;
+}
+.campo {
+    background-color: #e6e6e6;
+    border-style: none;
+    border-radius: 50px;
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+}
+.textos{
+    color: #df2957;
+    font-weight: 500;
+}
+.nombre {
+    margin-top: 30px;
+}
+.botoncontacto {
+    background-color: #df2957;
+    border-style: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+
+/* FOOTER */
+footer {
+    background-color: #912144;
+    display: flex;
+    padding: 20px 10px 20px 10px ;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.logo-redes {
+    color: white; 
+    display: flex;
+}
+
+#todasredes {
+    margin-left: 5%;
+}
+.iconoredes {
+    color: white;
+    float: left;
+    margin-top: 5px;
+}
+.redes a {
+    color: white;
+    text-decoration: none;
+}
+/* FIN FOOTER */
+
+
+/*MEDIA QUERYS*/
+@media all and (min-width:767px) {
+    .contenedor1 {
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+    /* UBICACION */
+    .mapacontacto  {
+        display: flex;
+        justify-content: center; 
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .ubicacion {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .contacto {
+        margin-left: 0px;
+    }
+    /* FIN UBICACION */
+
+    /* ACERCA DE NOSOTROS */
+    .nosotros {
+    text-align: left;
+    margin-left: 20px;
+    max-width: 500px;
+    }
+    /* FIN ACERCA DE NOSOTROS */
+
+    /* FOOTER */
+footer {
+    display: flex;
+    padding-left: 80px;
+    flex-flow: row wrap;
+    justify-content: left;
+}
+/* FIN FOOTER */
+}
